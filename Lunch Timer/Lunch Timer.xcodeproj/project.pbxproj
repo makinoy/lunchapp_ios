@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAACBFA119F1E709004E8CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACBFA019F1E709004E8CBF /* AppDelegate.swift */; };
+		EAACBFA319F1E709004E8CBF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACBFA219F1E709004E8CBF /* TableViewController.swift */; };
+		EAACBFA619F1E709004E8CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAACBFA419F1E709004E8CBF /* Main.storyboard */; };
+		EAACBFA819F1E709004E8CBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAACBFA719F1E709004E8CBF /* Images.xcassets */; };
+		EAACBFAB19F1E709004E8CBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAACBFA919F1E709004E8CBF /* LaunchScreen.xib */; };
+		EAACBFB719F1E709004E8CBF /* Lunch_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACBFB619F1E709004E8CBF /* Lunch_TimerTests.swift */; };
+		EAACBFC119F1E718004E8CBF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAACBFC019F1E718004E8CBF /* FacebookSDK.framework */; };
+		EAACBFC419F1EB37004E8CBF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACBFC319F1EB37004E8CBF /* LoginViewController.swift */; };
+		EAACBFC619F21341004E8CBF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACBFC519F21341004E8CBF /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAACBFB119F1E709004E8CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAACBF9319F1E709004E8CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAACBF9A19F1E709004E8CBF;
+			remoteInfo = "Lunch Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAACBF9B19F1E709004E8CBF /* Lunch Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lunch Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAACBF9F19F1E709004E8CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAACBFA019F1E709004E8CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAACBFA219F1E709004E8CBF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EAACBFA519F1E709004E8CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAACBFA719F1E709004E8CBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAACBFAA19F1E709004E8CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAACBFB019F1E709004E8CBF /* Lunch TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lunch TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAACBFB519F1E709004E8CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAACBFB619F1E709004E8CBF /* Lunch_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunch_TimerTests.swift; sourceTree = "<group>"; };
+		EAACBFC019F1E718004E8CBF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		EAACBFC219F1E72F004E8CBF /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		EAACBFC319F1EB37004E8CBF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EAACBFC519F21341004E8CBF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAACBF9819F1E709004E8CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACBFC119F1E718004E8CBF /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAACBFAD19F1E709004E8CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAACBF9219F1E709004E8CBF = {
+			isa = PBXGroup;
+			children = (
+				EAACBFC019F1E718004E8CBF /* FacebookSDK.framework */,
+				EAACBF9D19F1E709004E8CBF /* Lunch Timer */,
+				EAACBFB319F1E709004E8CBF /* Lunch TimerTests */,
+				EAACBF9C19F1E709004E8CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAACBF9C19F1E709004E8CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAACBF9B19F1E709004E8CBF /* Lunch Timer.app */,
+				EAACBFB019F1E709004E8CBF /* Lunch TimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAACBF9D19F1E709004E8CBF /* Lunch Timer */ = {
+			isa = PBXGroup;
+			children = (
+				EAACBFA019F1E709004E8CBF /* AppDelegate.swift */,
+				EAACBFA219F1E709004E8CBF /* TableViewController.swift */,
+				EAACBFA419F1E709004E8CBF /* Main.storyboard */,
+				EAACBFA719F1E709004E8CBF /* Images.xcassets */,
+				EAACBFA919F1E709004E8CBF /* LaunchScreen.xib */,
+				EAACBF9E19F1E709004E8CBF /* Supporting Files */,
+				EAACBFC219F1E72F004E8CBF /* Bridge-Header.h */,
+				EAACBFC319F1EB37004E8CBF /* LoginViewController.swift */,
+				EAACBFC519F21341004E8CBF /* TableViewCell.swift */,
+			);
+			path = "Lunch Timer";
+			sourceTree = "<group>";
+		};
+		EAACBF9E19F1E709004E8CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAACBF9F19F1E709004E8CBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAACBFB319F1E709004E8CBF /* Lunch TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAACBFB619F1E709004E8CBF /* Lunch_TimerTests.swift */,
+				EAACBFB419F1E709004E8CBF /* Supporting Files */,
+			);
+			path = "Lunch TimerTests";
+			sourceTree = "<group>";
+		};
+		EAACBFB419F1E709004E8CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAACBFB519F1E709004E8CBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAACBF9A19F1E709004E8CBF /* Lunch Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAACBFBA19F1E709004E8CBF /* Build configuration list for PBXNativeTarget "Lunch Timer" */;
+			buildPhases = (
+				EAACBF9719F1E709004E8CBF /* Sources */,
+				EAACBF9819F1E709004E8CBF /* Frameworks */,
+				EAACBF9919F1E709004E8CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lunch Timer";
+			productName = "Lunch Timer";
+			productReference = EAACBF9B19F1E709004E8CBF /* Lunch Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAACBFAF19F1E709004E8CBF /* Lunch TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAACBFBD19F1E709004E8CBF /* Build configuration list for PBXNativeTarget "Lunch TimerTests" */;
+			buildPhases = (
+				EAACBFAC19F1E709004E8CBF /* Sources */,
+				EAACBFAD19F1E709004E8CBF /* Frameworks */,
+				EAACBFAE19F1E709004E8CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAACBFB219F1E709004E8CBF /* PBXTargetDependency */,
+			);
+			name = "Lunch TimerTests";
+			productName = "Lunch TimerTests";
+			productReference = EAACBFB019F1E709004E8CBF /* Lunch TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAACBF9319F1E709004E8CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = makinoy;
+				TargetAttributes = {
+					EAACBF9A19F1E709004E8CBF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EAACBFAF19F1E709004E8CBF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EAACBF9A19F1E709004E8CBF;
+					};
+				};
+			};
+			buildConfigurationList = EAACBF9619F1E709004E8CBF /* Build configuration list for PBXProject "Lunch Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAACBF9219F1E709004E8CBF;
+			productRefGroup = EAACBF9C19F1E709004E8CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAACBF9A19F1E709004E8CBF /* Lunch Timer */,
+				EAACBFAF19F1E709004E8CBF /* Lunch TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAACBF9919F1E709004E8CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACBFA619F1E709004E8CBF /* Main.storyboard in Resources */,
+				EAACBFAB19F1E709004E8CBF /* LaunchScreen.xib in Resources */,
+				EAACBFA819F1E709004E8CBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAACBFAE19F1E709004E8CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAACBF9719F1E709004E8CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACBFC419F1EB37004E8CBF /* LoginViewController.swift in Sources */,
+				EAACBFC619F21341004E8CBF /* TableViewCell.swift in Sources */,
+				EAACBFA319F1E709004E8CBF /* TableViewController.swift in Sources */,
+				EAACBFA119F1E709004E8CBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAACBFAC19F1E709004E8CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACBFB719F1E709004E8CBF /* Lunch_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAACBFB219F1E709004E8CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAACBF9A19F1E709004E8CBF /* Lunch Timer */;
+			targetProxy = EAACBFB119F1E709004E8CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAACBFA419F1E709004E8CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAACBFA519F1E709004E8CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAACBFA919F1E709004E8CBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAACBFAA19F1E709004E8CBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAACBFB819F1E709004E8CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAACBFB919F1E709004E8CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAACBFBB19F1E709004E8CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/makinoy/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = "Lunch Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lunch Timer/Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		EAACBFBC19F1E709004E8CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/makinoy/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = "Lunch Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lunch Timer/Bridge-Header.h";
+			};
+			name = Release;
+		};
+		EAACBFBE19F1E709004E8CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lunch TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lunch Timer.app/Lunch Timer";
+			};
+			name = Debug;
+		};
+		EAACBFBF19F1E709004E8CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lunch TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lunch Timer.app/Lunch Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAACBF9619F1E709004E8CBF /* Build configuration list for PBXProject "Lunch Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAACBFB819F1E709004E8CBF /* Debug */,
+				EAACBFB919F1E709004E8CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAACBFBA19F1E709004E8CBF /* Build configuration list for PBXNativeTarget "Lunch Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAACBFBB19F1E709004E8CBF /* Debug */,
+				EAACBFBC19F1E709004E8CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAACBFBD19F1E709004E8CBF /* Build configuration list for PBXNativeTarget "Lunch TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAACBFBE19F1E709004E8CBF /* Debug */,
+				EAACBFBF19F1E709004E8CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAACBF9319F1E709004E8CBF /* Project object */;
+}
