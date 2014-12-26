@@ -59,7 +59,7 @@ class TableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell:TableViewCell? = tableView.dequeueReusableCellWithIdentifier("default-cell") as TableViewCell?
         if cell == nil {
-            cell = TableViewCell(style:UITableViewCellStyle, reuseIdentifier: "default-cell")
+            cell = TableViewCell(style:.Default, reuseIdentifier: "default-cell")
             cell?.shopImageView = UIImageView()
         }
 
